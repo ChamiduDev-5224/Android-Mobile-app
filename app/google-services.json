@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "141682711102",
+    "firebase_url": "https://busseatsreservingapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "busseatsreservingapp",
+    "storage_bucket": "busseatsreservingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141682711102:android:dc834b8205d279cba00f6f",
+        "android_client_info": {
+          "package_name": "com.example.busseatbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDexynpqoqtluXLfamzXUjzlvGhiejU6TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141682711102:android:1874d3faa68586e4a00f6f",
+        "android_client_info": {
+          "package_name": "com.example.busseatsreservingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDexynpqoqtluXLfamzXUjzlvGhiejU6TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141682711102:android:b83897a2cfdd13d3a00f6f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDexynpqoqtluXLfamzXUjzlvGhiejU6TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
