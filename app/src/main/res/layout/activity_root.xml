@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_height="42dp"
             android:id="@+id/amazonName"
-            android:text="SeatReservePlus"
+            android:text="SeatReserve"
             android:textSize="30sp"
             android:textColor="@color/pimary_yellow"
             android:layout_marginStart="18dp"
@@ -148,6 +148,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:id="@+id/manageCardView"
                 app:cardElevation="20dp"
                 app:cardCornerRadius="20dp">
 
@@ -158,9 +159,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/homeName"
-                        android:text="Schedule"
-                        android:textSize="20sp"
+                        android:id="@+id/manageCard"
+                        android:text="Manage Reservation"
+                        android:textSize="16sp"
                         android:textColor="@color/pimary_yellow"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"

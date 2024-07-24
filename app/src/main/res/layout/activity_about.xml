@@ -89,6 +89,14 @@
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
                 android:paddingBottom="16dp" />
+            <TextView
+                android:id="@+id/coneectme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Contact me : pplchamiduavihara@gmail.com"
+                android:textStyle="bold"
+                android:paddingBottom="16dp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

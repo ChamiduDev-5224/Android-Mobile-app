@@ -3,20 +3,22 @@ package com.example.busseatbookingapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.SearchView;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +30,6 @@ public class ReserveBusActivity extends AppCompatActivity {
     private List<Bus> filteredBusList;
     private DatabaseReference databaseReference;
     private ImageButton backButtonBusReserve;
-    private static final String TAG = "ReserveBusActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,6 +139,7 @@ public class ReserveBusActivity extends AppCompatActivity {
         intent.putExtra("departureTime", bus.getDepartureTime());
         intent.putExtra("arrivalTime", bus.getArrivalTime());
         intent.putExtra("busType", bus.getBusType());
+        intent.putExtra("busId", bus.getBusId());
         startActivity(intent);
     }
 }

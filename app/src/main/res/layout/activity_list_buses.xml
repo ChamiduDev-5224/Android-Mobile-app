@@ -10,7 +10,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-
         <androidx.appcompat.widget.SearchView
             android:id="@+id/editTextSearch"
             android:layout_width="match_parent"

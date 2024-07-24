@@ -10,7 +10,7 @@ public class Bus {
     private String arrivalTime;
     private String busType;
     private String runningCondition;
-    private int seatCount; // Assuming seatCount is stored as a Long in Firebase
+    private int seatCount;
 
     public Bus() {
         // Default constructor required for calls to DataSnapshot.getValue(Bus.class)
@@ -29,6 +29,7 @@ public class Bus {
         this.seatCount = seatCount;
     }
 
+    // Getters and Setters
     public String getBusId() {
         return busId;
     }
@@ -108,6 +109,4 @@ public class Bus {
     public void setSeatCount(int seatCount) {
         this.seatCount = seatCount;
     }
-
-
 }

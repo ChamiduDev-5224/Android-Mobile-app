@@ -1,10 +1,10 @@
 package com.example.busseatbookingapp;
 
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
@@ -18,7 +18,7 @@ public class RootActivity extends AppCompatActivity {
     CardView logOutCard;
     CardView reserveCard;
     CardView aboutUsCard;
-
+    CardView manageCard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,7 @@ public class RootActivity extends AppCompatActivity {
         logOutCard = findViewById(R.id.logoutcardid);
         reserveCard = findViewById(R.id.reserveCard);
         aboutUsCard = findViewById(R.id.aboutUsCard);
+        manageCard = findViewById(R.id.manageCardView);
 
         // Set the click listener for addBusCard
         addBusCard.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +54,16 @@ public class RootActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RootActivity.this, AboutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //move to mange screen
+
+        manageCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RootActivity.this, ManageReservation.class);
                 startActivity(intent);
             }
         });

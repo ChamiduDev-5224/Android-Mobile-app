@@ -49,16 +49,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/addbustextid"
-                android:text="Add Bus"
-                android:textSize="32sp"
-                android:fontFamily="sans-serif-medium"
-                android:layout_marginTop="24dp"
-                android:textColor="@color/pimary_yellow"
-                android:layout_gravity="center_horizontal"/>
 
             <ImageView
                 android:layout_width="200dp"

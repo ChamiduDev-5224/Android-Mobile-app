@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewCheckingPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking Place" />
+
+    <TextView
+        android:id="@+id/textViewSeatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCheckingPlace"
+        android:text="Seat Number" />
+
+    <TextView
+        android:id="@+id/textViewReservingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSeatNumber"
+        android:text="Reserving Date" />
+
+    <LinearLayout
+        android:id="@+id/statusContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewReservingDate"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textViewStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="4dp"
+            android:paddingHorizontal="6dp"
+            android:background="@drawable/rounded_cornaer"
+            android:text="Status Label"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@null"
+            android:src="@android:drawable/ic_menu_edit"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>
